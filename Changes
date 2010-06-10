@@ -1,3 +1,5 @@
 Revision history for Dist::Zilla::Plugin::SubmittingPatches
 {{$NEXT}}
+
+0.01      Jun 09 2010
 	- First rudimentary version.  Patches and comments welcome.
