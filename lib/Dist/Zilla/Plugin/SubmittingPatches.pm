@@ -28,7 +28,9 @@ In C<dist.ini>:
 
 =head1 DESCRIPTION
 
-add a patch submission policy to your repository similar to that of git.git
+add a patch submission policy to your repository similar to that of git.git. In
+the long run I'm hoping to be able to generate slightly different policies with
+this module. Complaints, or suggestions about the actual policy are welcome
 
 =head1 BUGS
 
