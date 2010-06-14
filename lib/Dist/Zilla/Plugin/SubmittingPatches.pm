@@ -92,37 +92,38 @@ __[ SubmittingPatches.pod ]__
 =pod
 
 =head1 Checklist
+
 (and a short version for the impatient):
 
 =head2 Commits:
 
 =over 4
 
-- make commits of logical units
-- check for unnecessary whitespace with "git diff --check" before committing
-- do not check in commented out code or unneeded files
-- the first line of the commit message should be a short description and
-  should skip the full stop
-- the body should provide a meaningful commit message, which:
+=item * make commits of logical units
+=item * check for unnecessary whitespace with "git diff --check" before committing
+=item * do not check in commented out code or unneeded files
+=item * the first line of the commit message should be a short description and
+should skip the full stop
+=item * the body should provide a meaningful commit message, which:
 
 =back
 
 =over 8
 
-- uses the imperative, present tense: "change", not "changed" or "changes".
-- includes motivation for the change, and contrasts its implementation with
-  previous behaviour
+=item * uses the imperative, present tense: "change", not "changed" or "changes".
+=item *includes motivation for the change, and contrasts its implementation with
+previous behaviour
 
 =back
 
 =over 4
 
-- if you want your work included in the main repository, add a "Signed-off-by:
-  Your Name <you@example.com>" line to the commit message (or just use the
-  option "-s" when committing) to confirm that you agree to the Developer's
-  Certificate of Origin
-- make sure that you have tests for the bug you are fixing
-- make sure that the test suite passes after your commit
+=item * if you want your work included in the main repository, add a "Signed-off-by:
+Your Name <you@example.com>" line to the commit message (or just use the
+option "-s" when committing) to confirm that you agree to the Developer's
+Certificate of Origin
+=item * make sure that you have tests for the bug you are fixing
+=item * make sure that the test suite passes after your commit
 
 =back
 
