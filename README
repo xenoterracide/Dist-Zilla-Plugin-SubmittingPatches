@@ -283,8 +283,9 @@ Long version:
     people play with it without having to pick up and apply the patch to
     their trees themselves.
 
-    ------------------------------------------------ Know the status of your
-    patch after submission
+    ------------------------------------------------
+
+    Know the status of your patch after submission
 
     *   You can use Git itself to find out when your patch is merged in
         master. 'git pull --rebase' will automatically skip already-applied

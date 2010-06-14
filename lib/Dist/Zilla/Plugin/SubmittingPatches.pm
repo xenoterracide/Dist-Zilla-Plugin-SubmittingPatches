@@ -372,6 +372,7 @@ people play with it without having to pick up and apply the patch to
 their trees themselves.
 
 ------------------------------------------------
+
 Know the status of your patch after submission
 
 =over
