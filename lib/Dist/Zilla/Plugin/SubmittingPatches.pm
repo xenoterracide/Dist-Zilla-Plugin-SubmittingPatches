@@ -44,6 +44,7 @@ Please read the SubmittingPatches file included with this Distribution. Patches
 that are of sufficient quality, within the goals of the project and pass the
 checklist will probably be accepted.
 
+=head1 TEXT OF SubmittingPatches BELOW
 =cut
 
 __DATA__
