@@ -82,24 +82,20 @@ change is relevant to.
 
 =over 4
 
-=item - A bugfix should be based on 'maint' in general. If the bug is not
-
+=item * A bugfix should be based on 'maint' in general. If the bug is not
 present in 'maint', base it on 'master'. For a bug that's not yet
 in 'master', find the topic that introduces the regression, and
 base your work on the tip of the topic.
 
-=item - A new feature should be based on 'master' in general. If the new
-
+=item * A new feature should be based on 'master' in general. If the new
 feature depends on a topic that is in 'pu', but not in 'master', base your
 work on the tip of that topic.
 
-=item - Corrections and enhancements to a topic not yet in 'master' should be
-
+=item * Corrections and enhancements to a topic not yet in 'master' should be
 based on the tip of that topic. If the topic has not been merged to 'next',
 it's alright to add a note to squash minor corrections into the series.
 
-=item - In the exceptional case that a new feature depends on several topics
-
+=item * In the exceptional case that a new feature depends on several topics
 not in 'master', start working on 'next' or 'pu' privately and send out
 patches for discussion. Before the final merge, you may have to wait until
 some of the dependent topics graduate to 'master', and rebase your work.
@@ -264,7 +260,6 @@ suggests to the contributors:
 =item (0) You come up with an itch.  You code it up.
 
 =item (1) Send it to the bug tracker and cc people who may need to know about
-
 the change.
 
 The people who may need to know are the ones whose code you are butchering.
@@ -274,15 +269,12 @@ help, don't demand).  "git log -p -- $area_you_are_modifying" would help you
 find out who they are.
 
 =item (2) You get comments and suggestions for improvements.  You may even
-
 get them in a "on top of your change" patch form.
 
 =item (3) Polish, refine, and re-send to the the people who spend their
-
 time to improve your patch.  Go back to step (2).
 
 =item (4) A topic branch is created with the patch and is merged to 'next',
-
 and cooked further and eventually graduates to 'master'.
 
 =back
@@ -298,7 +290,6 @@ Know the status of your patch after submission
 =over
 
 =item * You can use Git itself to find out when your patch is merged in
-
 master. 'git pull --rebase' will automatically skip already-applied
 patches, and will let you know. This works only if you rebase on top
 of the branch in which your patch has been merged (i.e. it will not
