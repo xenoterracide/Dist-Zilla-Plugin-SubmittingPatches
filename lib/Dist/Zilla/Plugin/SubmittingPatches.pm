@@ -94,8 +94,9 @@ __[ SubmittingPatches.pod ]__
 =head1 Checklist
 (and a short version for the impatient):
 
-=over 4
 =head2 Commits:
+
+=over 4
 
 =item - make commits of logical units
 
@@ -133,7 +134,11 @@ Developer's Certificate of Origin
 
 =item - make sure that the test suite passes after your commit
 
+=back
+
 =head2 Patch:
+
+=over 4
 
 =item - use "git format-patch -M" to create the patch
 
@@ -172,6 +177,7 @@ In general, always base your work on the oldest branch that your
 change is relevant to.
 
 =over 4
+
 =item - A bugfix should be based on 'maint' in general. If the bug is not
 
 present in 'maint', base it on 'master'. For a bug that's not yet
@@ -385,6 +391,8 @@ their trees themselves.
 ------------------------------------------------
 Know the status of your patch after submission
 
+=over
+
 =item * You can use Git itself to find out when your patch is merged in
 
 master. 'git pull --rebase' will automatically skip already-applied
@@ -392,5 +400,7 @@ patches, and will let you know. This works only if you rebase on top
 of the branch in which your patch has been merged (i.e. it will not
 tell you if your patch is merged in pu if you rebase on top of
 master).
+
+=back
 
 =cut
