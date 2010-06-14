@@ -98,41 +98,31 @@ __[ SubmittingPatches.pod ]__
 
 =over 4
 
-=item - make commits of logical units
-
-=item - check for unnecessary whitespace with "git diff --check" before
-
-committing
-
-=item - do not check in commented out code or unneeded files
-
-=item - the first line of the commit message should be a short description and
-
-should skip the full stop
-
-=item - the body should provide a meaningful commit message, which:
-
-=over 4
-
-=item - uses the imperative, present tense: "change", not "changed" or
-
-"changes".
-
-=item - includes motivation for the change, and contrasts its implementation
-
-with previous behaviour
+- make commits of logical units
+- check for unnecessary whitespace with "git diff --check" before committing
+- do not check in commented out code or unneeded files
+- the first line of the commit message should be a short description and
+  should skip the full stop
+- the body should provide a meaningful commit message, which:
 
 =back
 
-=item - if you want your work included in the main repository, add a
+=over 8
 
-"Signed-off-by: Your Name <you@example.com>" line to the commit message (or
-just use the option "-s" when committing) to confirm that you agree to the
-Developer's Certificate of Origin
+- uses the imperative, present tense: "change", not "changed" or "changes".
+- includes motivation for the change, and contrasts its implementation with
+  previous behaviour
 
-=item - make sure that you have tests for the bug you are fixing
+=back
 
-=item - make sure that the test suite passes after your commit
+=over 4
+
+- if you want your work included in the main repository, add a "Signed-off-by:
+  Your Name <you@example.com>" line to the commit message (or just use the
+  option "-s" when committing) to confirm that you agree to the Developer's
+  Certificate of Origin
+- make sure that you have tests for the bug you are fixing
+- make sure that the test suite passes after your commit
 
 =back
 
