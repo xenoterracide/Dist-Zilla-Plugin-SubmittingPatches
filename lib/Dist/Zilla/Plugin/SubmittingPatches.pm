@@ -86,6 +86,8 @@ This is free software, licensed under:
 
 =head1 SubmittingPatches Doc Below
 
+--------------------------------------------------------------------------------
+
 =cut
 
 
