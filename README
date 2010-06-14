@@ -21,12 +21,11 @@ BUGS
     <http://github.com/xenoterracide/Dist-Zilla-Plugin-SubmittingPatches/iss
     ues> as I'm not fond of RT.
 
-SUBMITTING PATCHES
+PATCHES
     Please read the SubmittingPatches file included with this Distribution.
     Patches that are of sufficient quality, within the goals of the project
     and pass the checklist will probably be accepted.
 
-TEXT OF SubmittingPatches BELOW
 AUTHOR
     Caleb Cushing <xenoterracide@gmail.com>
 
@@ -37,6 +36,10 @@ COPYRIGHT AND LICENSE
     This is free software, licensed under:
 
       The Artistic License 2.0
+
+SubmittingPatches Doc Below
+    ------------------------------------------------------------------------
+    --------
 
 Checklist
     (and a short version for the impatient):

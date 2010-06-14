@@ -66,13 +66,11 @@ Please report any bugs or feature requests on
 L<http://github.com/xenoterracide/Dist-Zilla-Plugin-SubmittingPatches/issues>
 as I'm not fond of RT.
 
-=head1 SUBMITTING PATCHES
+=head1 PATCHES
 
 Please read the SubmittingPatches file included with this Distribution. Patches
 that are of sufficient quality, within the goals of the project and pass the
 checklist will probably be accepted.
-
-=head1 TEXT OF SubmittingPatches BELOW
 
 =head1 AUTHOR
 
@@ -85,6 +83,10 @@ This software is Copyright (c) 2010 by Caleb Cushing <xenoterracide@gmail.com>.
 This is free software, licensed under:
 
   The Artistic License 2.0
+
+=head1 SubmittingPatches Doc Below
+
+--------------------------------------------------------------------------------
 
 =cut
 
