@@ -336,8 +336,7 @@ is more familiar with the issues and the area the patch attempts
 to modify.  "Tested-by:" says the patch was tested by the person
 and found to have the desired effect.
 
-------------------------------------------------
-An ideal patch flow
+=head1 An ideal patch flow
 
 Here is an ideal patch flow for this project the current maintainer
 suggests to the contributors:
@@ -371,9 +370,7 @@ from the list and queue it to 'pu', in order to make it easier for
 people play with it without having to pick up and apply the patch to
 their trees themselves.
 
-------------------------------------------------
-
-Know the status of your patch after submission
+=head1 Know the status of your patch after submission
 
 =over
 

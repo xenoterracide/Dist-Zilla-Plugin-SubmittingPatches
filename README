@@ -257,8 +257,7 @@ Long version:
     "Tested-by:" says the patch was tested by the person and found to have
     the desired effect.
 
-    ------------------------------------------------ An ideal patch flow
-
+An ideal patch flow
     Here is an ideal patch flow for this project the current maintainer
     suggests to the contributors:
 
@@ -283,10 +282,7 @@ Long version:
     people play with it without having to pick up and apply the patch to
     their trees themselves.
 
-    ------------------------------------------------
-
-    Know the status of your patch after submission
-
+Know the status of your patch after submission
     *   You can use Git itself to find out when your patch is merged in
         master. 'git pull --rebase' will automatically skip already-applied
         patches, and will let you know. This works only if you rebase on top
