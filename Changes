@@ -1,5 +1,7 @@
 Revision history for Dist::Zilla::Plugin::SubmittingPatches
 {{$NEXT}}
+
+0.02      Jun 14 2010
 	- Convert to POD format
 
 0.01      Jun 09 2010
