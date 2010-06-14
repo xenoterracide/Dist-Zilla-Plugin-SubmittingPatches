@@ -74,7 +74,7 @@ checklist will probably be accepted.
 
 =head1 AUTHOR
 
-  Caleb Cushing <xenoterracide@gmail.com>
+Caleb Cushing <xenoterracide@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
