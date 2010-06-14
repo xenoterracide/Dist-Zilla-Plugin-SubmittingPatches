@@ -19,9 +19,7 @@ should skip the full stop
 
 =item * the body should provide a meaningful commit message, which:
 
-=back
-
-=over 8
+=over 4
 
 =item * uses the imperative, present tense: "change", not "changed" or "changes".
 
@@ -29,8 +27,6 @@ should skip the full stop
 previous behaviour
 
 =back
-
-=over 4
 
 =item * if you want your work included in the main repository, add a "Signed-off-by:
 Your Name <you@example.com>" line to the commit message (or just use the

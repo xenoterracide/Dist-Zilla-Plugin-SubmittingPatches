@@ -53,10 +53,10 @@ Checklist
 
     *   the body should provide a meaningful commit message, which:
 
-    *       uses the imperative, present tense: "change", not "changed" or
+        *   uses the imperative, present tense: "change", not "changed" or
             "changes".
 
-    *       includes motivation for the change, and contrasts its
+        *   includes motivation for the change, and contrasts its
             implementation with previous behaviour
 
     *   if you want your work included in the main repository, add a
