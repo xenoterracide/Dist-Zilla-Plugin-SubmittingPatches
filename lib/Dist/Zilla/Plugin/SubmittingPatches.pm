@@ -345,7 +345,7 @@ suggests to the contributors:
 
 =item 0. You come up with an itch.  You code it up.
 
-E<10>
+E<>
 
 =item 1. Send it to the bug tracker and cc people who may need to know about
 the change.
