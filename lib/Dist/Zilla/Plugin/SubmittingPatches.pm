@@ -100,10 +100,14 @@ __[ SubmittingPatches.pod ]__
 =over 4
 
 =item * make commits of logical units
+
 =item * check for unnecessary whitespace with "git diff --check" before committing
+
 =item * do not check in commented out code or unneeded files
+
 =item * the first line of the commit message should be a short description and
 should skip the full stop
+
 =item * the body should provide a meaningful commit message, which:
 
 =back
@@ -111,7 +115,8 @@ should skip the full stop
 =over 8
 
 =item * uses the imperative, present tense: "change", not "changed" or "changes".
-=item *includes motivation for the change, and contrasts its implementation with
+
+=item * includes motivation for the change, and contrasts its implementation with
 previous behaviour
 
 =back
@@ -122,7 +127,9 @@ previous behaviour
 Your Name <you@example.com>" line to the commit message (or just use the
 option "-s" when committing) to confirm that you agree to the Developer's
 Certificate of Origin
+
 =item * make sure that you have tests for the bug you are fixing
+
 =item * make sure that the test suite passes after your commit
 
 =back
@@ -131,19 +138,19 @@ Certificate of Origin
 
 =over 4
 
-=item - use "git format-patch -M" to create the patch
+=item * use "git format-patch -M" to create the patch
 
-=item - do not PGP sign your patch
+=item * do not PGP sign your patch
 
-=item - be careful doing cut & paste, not to corrupt whitespaces.
+=item * be careful doing cut & paste, not to corrupt whitespaces.
 
-=item - provide additional information (which is unsuitable for the commit
+=item * provide additional information (which is unsuitable for the commit
 message) between the "---" and the diffstat
 
-=item - if you change, add, or remove any features or make some other user
+=item * if you change, add, or remove any features or make some other user
 interface change, the associated documentation should be updated as well.
 
-=item - if your name is not writable in ASCII, make sure that you send the
+=item * if your name is not writable in ASCII, make sure that you send the
 patch in the correct encoding.
 
 =back
