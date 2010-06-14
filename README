@@ -62,14 +62,12 @@ Checklist
     - do not PGP sign your patch
     - be careful doing cut & paste, not to corrupt whitespaces.
     - provide additional information (which is unsuitable for the commit
-        message) between the "---" and the diffstat
-
+    message) between the "---" and the diffstat
     - if you change, add, or remove any features or make some other user
-        interface change, the associated documentation should be updated as
-        well.
-
+    interface change, the associated documentation should be updated as
+    well.
     - if your name is not writable in ASCII, make sure that you send the
-        patch in the correct encoding.
+    patch in the correct encoding.
 
 Long version:
     I started reading over the SubmittingPatches document for git, primarily

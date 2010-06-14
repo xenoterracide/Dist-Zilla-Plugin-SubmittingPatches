@@ -137,15 +137,12 @@ __[ SubmittingPatches.pod ]__
 =item - be careful doing cut & paste, not to corrupt whitespaces.
 
 =item - provide additional information (which is unsuitable for the commit
-
 message) between the "---" and the diffstat
 
 =item - if you change, add, or remove any features or make some other user
-
 interface change, the associated documentation should be updated as well.
 
 =item - if your name is not writable in ASCII, make sure that you send the
-
 patch in the correct encoding.
 
 =back
