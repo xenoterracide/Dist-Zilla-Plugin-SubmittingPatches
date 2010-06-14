@@ -66,7 +66,7 @@ Please report any bugs or feature requests on
 L<http://github.com/xenoterracide/Dist-Zilla-Plugin-SubmittingPatches/issues>
 as I'm not fond of RT.
 
-=head1 SUBMITTING PATCHES
+=head1 PATCHES
 
 Please read the SubmittingPatches file included with this Distribution. Patches
 that are of sufficient quality, within the goals of the project and pass the
