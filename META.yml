@@ -27,4 +27,4 @@ requires:
 resources:
   bugtracker: http://github.com/xenoterracide/Dist-Zilla-Plugin-SubmittingPatches/issues
   repository: git://github.com/xenoterracide/Dist-Zilla-Plugin-SubmittingPatches.git
-version: 0.01
+version: 0.02
