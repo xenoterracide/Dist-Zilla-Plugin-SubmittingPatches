@@ -343,9 +343,9 @@ suggests to the contributors:
 
 =over 4
 
-=item * You come up with an itch.  You code it up.
+=item 0* You come up with an itch.  You code it up.
 
-=item * Send it to the bug tracker and cc people who may need to know about
+=item *1. Send it to the bug tracker and cc people who may need to know about
 the change.
 
 The people who may need to know are the ones whose
@@ -354,7 +354,7 @@ likely to be knowledgeable enough to help you, but they have no obligation to
 help you (i.e. you ask for help, don't demand).  "git log -p --
 $area_you_are_modifying" would help you find out who they are.
 
-=item * You get comments and suggestions for improvements.  You may even
+=item *2 You get comments and suggestions for improvements.  You may even
 get them in a "on top of your change" patch form.
 
 =item * Polish, refine, and re-send to the the people who spend their
