@@ -12,7 +12,7 @@ use warnings;
 
 package Dist::Zilla::Plugin::SubmittingPatches;
 BEGIN {
-  $Dist::Zilla::Plugin::SubmittingPatches::VERSION = '0.02';
+  $Dist::Zilla::Plugin::SubmittingPatches::VERSION = '0.03';
 }
 use Moose;
 use namespace::autoclean;
@@ -46,7 +46,7 @@ Dist::Zilla::Plugin::SubmittingPatches - Add SubmittingPatches documentation
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

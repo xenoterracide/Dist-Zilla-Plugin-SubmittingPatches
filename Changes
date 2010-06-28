@@ -1,5 +1,7 @@
 Revision history for Dist::Zilla::Plugin::SubmittingPatches
-0.02      Jun 28 2010
+0.03      Jun 28 2010
+	- Put SubmittingPatches.pod in docs directory
+	- fix podweaver arrangement
 
 0.02      Jun 14 2010
 	- Convert to POD format
