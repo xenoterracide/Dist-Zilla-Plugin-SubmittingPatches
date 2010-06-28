@@ -50,7 +50,7 @@ checklist will probably be accepted.
 =cut
 
 __DATA__
-__[ SubmittingPatches.pod ]__
+__[ docs/SubmittingPatches.pod ]__
 =pod
 
 =head1 Checklist
